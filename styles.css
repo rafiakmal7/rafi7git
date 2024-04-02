@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+
 }
 
 .container {
@@ -13,8 +14,8 @@ body {
   align-items: center;
   width: 100%;
   padding: 0;
-  height: 100%;
-  background-image: url(bg1.jpg);
+  min-width: 100vh;
+  background-color: transparent;
 }
 
 .wrapper {
@@ -45,7 +46,7 @@ body {
   font-weight: 700;
   margin-left: 40px;
   text-decoration: underline;
-  text-decoration-color: yellow;
+  text-decoration-color: rgb(123, 185, 240);
 }
 .blog-nav {
   display: flex;
@@ -68,12 +69,12 @@ body {
 }
 
 .blog-nav li a:hover {
-  color: #ff4500;
+  color: rgb(123, 185, 240);
   transition: all 0.3s ease-in-out;
 }
 
 .blog-nav a:hover {
-  color: #ff4500;
+  color: rgb(123, 185, 240);
   transition: all 0.5s ease-in-out;
 }
 /* AKHIR NAVBAR */
@@ -85,7 +86,7 @@ body {
 }
 
 .link-artikel:hover {
-  color: #ff4500;
+  color: rgb(123, 185, 240);
 }
 
 
@@ -129,7 +130,7 @@ p {
 
 /* Gaya untuk tombol pencarian */
 #search-input {
-  width: 1100px; /* Sesuaikan lebar dengan kebutuhan Anda */
+  width: 1100px; /* Sesuaikan lebar  */
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -140,7 +141,7 @@ p {
 /* Gaya untuk tombol pencarian */
 #search-button {
   width: 100px;
-  background-color: #ff4500;
+  background-color: rgb(123, 185, 240);
   color: rgb(15, 250, 7);
   padding: 10px 20px;
   font-size: 16px;
@@ -152,7 +153,7 @@ p {
 
 /* Efek hover pada tombol pencarian */
 #search-button:hover {
-  background-color: #cc3700;
+  background-color: rgb(123, 185, 240);
 }
 
 /* Tambahkan gaya ini untuk menyesuaikan tampilan formulir pencarian */
@@ -176,11 +177,9 @@ p {
 
 /* isi */
 .box-bloga {
-  max-width: 60%;
+  width: 80%;
   margin: 20px auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: rgb(254, 251, 251);
 }
 
@@ -221,4 +220,10 @@ p {
   margin-top: 20px;
   margin-bottom: 4px;
   font-size: medium;
+}
+
+
+.content-a ul {
+  margin: 0 40px;
+
 }
