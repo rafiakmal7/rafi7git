@@ -207,9 +207,9 @@ p {
 }
 .content-a p {
   color: #222;
-  text-indent: 40px;
-  margin: 0 20px 0 20px;
   font-size: medium;
+  margin-top: 20px; /* Memberikan jarak 20 piksel di bagian atas */
+  margin-bottom: 20px; /* Memberikan jarak 20 piksel di bagian bawah */
 }
 .jdl3 {
   margin-top: 20px;
